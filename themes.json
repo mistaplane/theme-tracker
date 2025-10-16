@@ -1,0 +1,28 @@
+{
+  "Rockets/Space": ["RKLB", "SPCE", "ASTS", "BA", "LMT", "LUNR","RDW"],
+  "Data Centers": ["SMCI", "DELL", "AVGO", "CRWV", "APLD", "IREN", "INOD", "SMTC", "VRT","ORCL"],
+  "Nuclear": ["SMR", "VST", "OKLO", "BWX", "CEG", "CCJ", "NEE", "NNE", "LEU", "UEC"],
+  "BTC Miners/ Crypto": ["IREN", "CIFR", "BTDR", "BITF", "HIVE", "MSTR", "MARA", "RIOT","HUT","BTBT","CLSK","CORZ","BMNR"],
+  "Solar": ["FSLR", "RUN","SEDG","ENPH","CSIQ"],
+  "Quantum": ["ARQQ","IONQ","RGTI","QUBT","QBTS"],
+  "Semis": ["NVDA","AMD","DELL","INTC","MU"],
+  "China": ["BABA", "BIDU","JD","FUTU","TME","PDD"],
+  "Consumer": ["VSCO","NKE","CROX","ULTA","CVNA","OPEN"],
+  "DAT": ["STSS", "MSTR","BMNR","SBET","BTBT"],
+  "AI": ["PLTR","SOUN","NVDA","META","GOOG","CRWV","SNOW","ORCL","BBAI","TEM"],
+  "EV - Cars": ["TSLA","RIVN","LCID","XPEV","LI","EVGO","NIO"],
+  "Lithium": ["LAC", "QS","LIT","ALB","SLI", "SQM", "SGML", "ATLX", "RIO", "IONR"],
+  "Lidar": ["MBLY","AEVA","LAZR"],
+  "Software": ["PLTR", "ADBE", "DOCU", "ORCL","DDOG","ZS","APP","ADSK","CRM","SNAP","WDAY","ZM"],
+  "Cyber Sec": ["ZS", "CRWD", "FTNT", "PANW","RBRK"],
+  "EV Air Taxi": ["ACHR", "JOBY", "HOVR"],
+  "Drones": ["AVAV", "RCAT"],
+  "Private Credit": ["OWL", "ARES", "CG", "KKR"],
+  "Genomics": ["PRME", "CRSP", "NTLA", "BEAM", "EDIT"],
+  "Airlines": ["LUV", "AAL", "DAL", "UAL", "VLRS"],
+  "Rare Earth": ["USAR", "IDR", "CRML", "UAMY", "AREC", "IPX", "PPTA", "TMRC", "TMC", "NB", "UUUU"],
+  "Uranium": ["LEU", "UUU", "URG", "DNN", "UEC", "AEC", "UROY", "CCJ", "EU", "NXE", "ISOU"],
+  "Graphite": ["NVW", "NMG"],
+  "MAG 7": ["META", "AAPL","AMZN","NFLX","GOOG","TSLA","NVDA"]
+
+}

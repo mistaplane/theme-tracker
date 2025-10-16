@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+venv/
+.envrc
+
+# VS Code
+.vscode/
+
+# Node (if present)
+node_modules/
+dist/
+.build/
+.cache/
+
+# Logs & misc
+*.log
+*.sqlite3
+.ipynb_checkpoints/
