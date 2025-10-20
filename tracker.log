@@ -3542,3 +3542,2136 @@ Software              0.207959     [APP, ORCL, ZM]        24
 DAT                   0.146352  [BMNR, MSTR, BTBT]        25
 Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
 2025-10-15 16:59:59,574 - INFO - Rendered Plotly chart in QWebEngineView
+2025-10-15 17:56:27,807 - INFO - Starting get_hot_themes
+2025-10-15 17:56:27,807 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 17:56:27,817 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 17:56:29,015 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-15 17:56:29,792 - ERROR - 
+3 Failed downloads:
+2025-10-15 17:56:29,792 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 17:56:29,865 - INFO - Discover scan found 1 candidate themes
+2025-10-15 17:56:29,866 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 17:56:31,814 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 17:56:31,845 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 17:56:32,477 - INFO - Rendered Plotly chart in QWebEngineView
+2025-10-15 18:15:59,585 - INFO - Starting get_hot_themes
+2025-10-15 18:15:59,585 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 18:15:59,592 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 18:16:01,303 - ERROR - 
+3 Failed downloads:
+2025-10-15 18:16:01,304 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 18:16:01,445 - INFO - Discover scan found 1 candidate themes
+2025-10-15 18:16:01,446 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 18:16:02,992 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 18:16:03,024 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 18:16:03,569 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-15 18:27:01,121 - INFO - Starting get_hot_themes
+2025-10-15 18:27:01,121 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 18:27:01,129 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 18:27:02,629 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-15 18:27:02,881 - ERROR - 
+3 Failed downloads:
+2025-10-15 18:27:02,881 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 18:27:03,024 - INFO - Discover scan found 1 candidate themes
+2025-10-15 18:27:03,025 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 18:27:04,562 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 18:27:04,593 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 18:27:05,154 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-15 18:28:04,950 - INFO - Starting get_hot_themes
+2025-10-15 18:28:04,951 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 18:28:04,959 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 18:28:06,814 - ERROR - 
+3 Failed downloads:
+2025-10-15 18:28:06,814 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 18:28:06,952 - INFO - Discover scan found 1 candidate themes
+2025-10-15 18:28:06,953 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 18:28:08,519 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 18:28:08,550 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 18:28:09,098 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-15 18:29:56,370 - INFO - Starting get_hot_themes
+2025-10-15 18:29:56,370 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 18:29:56,378 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 18:29:57,355 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-15 18:29:58,231 - ERROR - 
+3 Failed downloads:
+2025-10-15 18:29:58,232 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 18:29:58,372 - INFO - Discover scan found 1 candidate themes
+2025-10-15 18:29:58,373 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 18:30:00,022 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 18:30:00,056 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 18:30:00,520 - ERROR - Failed to render QWebEngineView: name 'themeKey' is not defined
+2025-10-15 18:30:39,814 - INFO - Starting get_hot_themes
+2025-10-15 18:30:39,814 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 18:30:39,822 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 18:30:40,488 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-15 18:30:41,620 - ERROR - 
+3 Failed downloads:
+2025-10-15 18:30:41,622 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 18:30:41,769 - INFO - Discover scan found 1 candidate themes
+2025-10-15 18:30:41,770 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 18:30:44,186 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 18:30:44,217 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.319892   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 18:30:44,769 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-15 18:58:30,851 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-10-15 18:58:30,917 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.50.247:8050
+2025-10-15 18:58:30,917 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-15 19:01:18,553 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-10-15 19:01:18,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.50.247:8050
+2025-10-15 19:01:18,581 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-15 19:03:40,000 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET / HTTP/1.1" 200 -
+2025-10-15 19:03:40,020 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1759279665.12.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,026 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1759279665.3.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,026 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1759279665.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,028 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1759279665.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,029 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1759279665.min.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,032 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1759279665.min.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,362 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-15 19:03:40,363 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-15 19:03:40,445 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-10-15 19:03:40,451 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-10-15 19:03:40,468 - INFO - 127.0.0.1 - - [15/Oct/2025 19:03:40] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-10-15 19:04:54,292 - INFO - Starting get_hot_themes
+2025-10-15 19:04:54,292 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-15 19:04:54,301 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-15 19:04:56,133 - ERROR - 
+3 Failed downloads:
+2025-10-15 19:04:56,133 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-15 19:04:56,278 - INFO - Discover scan found 1 candidate themes
+2025-10-15 19:04:56,279 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-15 19:04:57,891 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-15 19:04:57,921 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+🔶 NEW: 1D Gainers    10.096083   [BTDR, SMR, EDIT]         1
+Quantum               5.889087  [QBTS, RGTI, QUBT]         2
+Rare Earth            5.847540   [IPX, PPTA, UUUU]         3
+BTC Miners/ Crypto    5.472025   [BTDR, BITF, HUT]         4
+EV Air Taxi           4.877694  [ACHR, JOBY, HOVR]         5
+Solar                 4.200258  [FSLR, SEDG, ENPH]         6
+Nuclear               4.192656     [SMR, LEU, UEC]         7
+Graphite              4.171075               [NMG]         8
+Lithium               4.045219     [QS, SGML, SQM]         9
+Uranium               4.002585     [UROY, EU, LEU]        10
+Lidar                 3.735742  [AEVA, MBLY, LAZR]        11
+Airlines              2.432480    [AAL, UAL, VLRS]        12
+Private Credit        2.417236     [OWL, ARES, CG]        13
+Rockets/Space         2.149670    [RKLB, ASTS, BA]        14
+Genomics              1.971299  [EDIT, NTLA, BEAM]        15
+Data Centers          1.857060  [INOD, APLD, CRWV]        16
+Drones                1.805266        [RCAT, AVAV]        17
+AI                    1.614146   [CRWV, SOUN, TEM]        18
+Consumer              1.320222   [VSCO, CVNA, NKE]        19
+Semis                 1.299422   [AMD, INTC, DELL]        20
+EV - Cars             1.208120  [RIVN, XPEV, TSLA]        21
+China                 0.859517   [TME, BABA, BIDU]        22
+MAG 7                 0.530272  [GOOG, TSLA, META]        23
+Software              0.207959     [APP, ORCL, ZM]        24
+DAT                   0.146352  [BMNR, MSTR, BTBT]        25
+Cyber Sec            -0.482294    [RBRK, FTNT, ZS]        26
+2025-10-15 19:04:58,567 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-15 19:05:08,712 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-10-15 19:05:08,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.50.247:8050
+2025-10-15 19:05:08,742 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-15 19:05:30,018 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET / HTTP/1.1" 200 -
+2025-10-15 19:05:30,071 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_2_0m1759279665.12.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,119 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_2_0m1759279665.3.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,120 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/deps/react@18.v3_2_0m1759279665.3.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,121 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_2_0m1759279665.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,122 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_2_0m1759279665.8.1.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,123 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_2_0m1759279665.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,180 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_4m1759279665.min.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,181 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_2_0m1759279665.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,306 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_4m1759279665.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,464 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-15 19:05:30,472 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-15 19:05:30,489 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-10-15 19:05:30,511 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-10-15 19:05:30,521 - INFO - 192.168.50.111 - - [15/Oct/2025 19:05:30] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-10-15 19:06:40,583 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2025-10-15 19:06:40,632 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://192.168.50.247:8050
+2025-10-15 19:06:40,632 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-15 19:06:51,976 - ERROR - 192.168.50.247 - - [15/Oct/2025 19:06:51] code 400, message Bad request version ('O9\x8dÃE\x07Î±;~\x152')
+2025-10-15 19:06:51,976 - INFO - 192.168.50.247 - - [15/Oct/2025 19:06:51] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x08¤ûÿS#\x0b\x00mÕ\x96GUFÄÜ}FuÔ'\x90ÊD\x04H\x9e/s$³å O9\x8dÃE\x07Î±;~\x152[0m" 400 -
+2025-10-15 19:06:51,977 - ERROR - 192.168.50.247 - - [15/Oct/2025 19:06:51] code 400, message Bad request version ('\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+2025-10-15 19:06:51,977 - INFO - 192.168.50.247 - - [15/Oct/2025 19:06:51] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03\x11\x89%N8H\x947\x9e\x8a6M2£UÌµ\x06õ\x08\x00[\x04\x0d\x09\x9c@¬*\x90yy àiÍr\x14µ\x17ËôÁ¡;Üv\x81MëòÈ8p¹7QíÃ8Ov\x0c¢\x94\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00[0m" 400 -
+2025-10-15 19:07:00,944 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:00] "GET / HTTP/1.1" 200 -
+2025-10-15 19:07:01,134 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:01] "GET /_dash-layout HTTP/1.1" 200 -
+2025-10-15 19:07:01,135 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:01] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-10-15 19:07:01,349 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:01] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-10-15 19:07:01,357 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:01] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-10-15 19:07:01,377 - INFO - 127.0.0.1 - - [15/Oct/2025 19:07:01] "GET /_favicon.ico?v=3.2.0 HTTP/1.1" 200 -
+2025-10-16 09:16:22,292 - INFO - Starting get_hot_themes
+2025-10-16 09:16:22,294 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-16 09:16:22,380 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-16 09:16:23,398 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-16 09:16:25,017 - ERROR - 
+3 Failed downloads:
+2025-10-16 09:16:25,017 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-16 09:16:25,100 - INFO - Discover scan found 0 candidate themes
+2025-10-16 09:16:25,102 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-16 09:16:28,868 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-16 09:16:28,950 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Genomics              2.624244  [BEAM, EDIT, NTLA]         1
+Solar                 2.236595  [CSIQ, ENPH, FSLR]         2
+Semis                 0.835592    [MU, NVDA, DELL]         3
+Airlines              0.636979    [VLRS, DAL, AAL]         4
+BTC Miners/ Crypto    0.631427  [BTDR, CORZ, MSTR]         5
+Consumer              0.606645  [VSCO, ULTA, CVNA]         6
+Private Credit        0.571181     [CG, ARES, OWL]         7
+Data Centers          0.552443  [SMCI, AVGO, ORCL]         8
+Nuclear               0.524693     [BWX, NEE, VST]         9
+Rockets/Space         0.354770     [SPCE, LMT, BA]        10
+Uranium               0.119357    [UROY, DNN, UEC]        11
+MAG 7                -0.192932  [NVDA, GOOG, AMZN]        12
+AI                   -0.225650  [NVDA, GOOG, ORCL]        13
+Lithium              -0.228324    [SLI, SGML, LIT]        14
+Software             -0.310654     [CRM, ADBE, ZM]        15
+China                -0.449854   [FUTU, PDD, BIDU]        16
+EV - Cars            -0.811483    [LI, LCID, TSLA]        17
+Lidar                -1.231393  [LAZR, MBLY, AEVA]        18
+Cyber Sec            -1.294932    [PANW, RBRK, ZS]        19
+EV Air Taxi          -1.989203  [ACHR, JOBY, HOVR]        20
+DAT                  -2.282899  [SBET, MSTR, BMNR]        21
+Drones               -3.942928        [AVAV, RCAT]        22
+Rare Earth           -4.015155  [TMRC, CRML, UAMY]        23
+Quantum              -4.347933  [QUBT, IONQ, QBTS]        24
+Graphite             -6.729756               [NMG]        25
+2025-10-16 09:16:30,056 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-17 11:28:29,472 - INFO - Starting get_hot_themes
+2025-10-17 11:28:29,473 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-17 11:28:29,497 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-17 11:28:30,337 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-17 11:28:31,506 - ERROR - 
+3 Failed downloads:
+2025-10-17 11:28:31,506 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-17 11:28:31,587 - INFO - Discover scan found 0 candidate themes
+2025-10-17 11:28:31,589 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-17 11:28:33,411 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-17 11:28:33,448 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.392032    [NVDA, INTC, MU]         1
+China                 0.563218   [FUTU, PDD, BABA]         2
+MAG 7                 0.392976  [TSLA, AAPL, NFLX]         3
+Genomics             -0.025919  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.159796    [PANW, FTNT, ZS]         5
+Software             -0.251189  [WDAY, DDOG, ADSK]         6
+Data Centers         -0.386556   [DELL, AVGO, VRT]         7
+Airlines             -0.506795     [LUV, UAL, AAL]         8
+Consumer             -0.592673   [NKE, VSCO, ULTA]         9
+Solar                -0.698446   [FSLR, RUN, ENPH]        10
+EV - Cars            -0.855011    [TSLA, RIVN, LI]        11
+AI                   -0.928238  [NVDA, GOOG, META]        12
+Nuclear              -0.961290    [OKLO, BWX, NEE]        13
+Private Credit       -1.670569      [OWL, KKR, CG]        14
+BTC Miners/ Crypto   -2.322630  [RIOT, MSTR, BMNR]        15
+Lidar                -2.657609  [LAZR, AEVA, MBLY]        16
+Rockets/Space        -2.848894     [LUNR, BA, LMT]        17
+DAT                  -3.234250  [MSTR, BMNR, BTBT]        18
+Graphite             -3.832202               [NMG]        19
+Uranium              -4.350955     [UUU, CCJ, DNN]        20
+Lithium              -4.383075     [LIT, RIO, SQM]        21
+Quantum              -6.055244  [ARQQ, RGTI, QUBT]        22
+EV Air Taxi          -6.303317  [JOBY, ACHR, HOVR]        23
+Drones               -6.426937        [AVAV, RCAT]        24
+Rare Earth          -10.266240    [CRML, NB, USAR]        25
+2025-10-17 11:28:34,572 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 16:17:52,066 - INFO - Starting get_hot_themes
+2025-10-19 16:17:52,067 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 16:17:52,097 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 16:17:53,340 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 16:17:56,171 - ERROR - 
+3 Failed downloads:
+2025-10-19 16:17:56,171 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 16:17:56,233 - INFO - Discover scan found 0 candidate themes
+2025-10-19 16:17:56,234 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 16:17:58,996 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 16:17:59,026 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 16:18:01,612 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 16:40:04,811 - INFO - Starting get_hot_themes
+2025-10-19 16:40:04,811 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 16:40:04,818 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 16:40:13,185 - ERROR - 
+3 Failed downloads:
+2025-10-19 16:40:13,185 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 16:40:13,259 - INFO - Discover scan found 0 candidate themes
+2025-10-19 16:40:13,260 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 16:40:16,751 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 16:40:16,779 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 16:40:18,798 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 16:56:20,401 - INFO - Starting get_hot_themes
+2025-10-19 16:56:20,401 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 16:56:20,409 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 16:56:22,579 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 16:56:24,402 - ERROR - 
+3 Failed downloads:
+2025-10-19 16:56:24,402 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 16:56:24,482 - INFO - Discover scan found 0 candidate themes
+2025-10-19 16:56:24,483 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 16:56:27,526 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 16:56:27,554 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 16:56:29,618 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 16:57:06,889 - INFO - Starting get_hot_themes
+2025-10-19 16:57:06,889 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 16:57:06,896 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 16:57:12,485 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 16:57:13,347 - ERROR - 
+3 Failed downloads:
+2025-10-19 16:57:13,347 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 16:57:13,423 - INFO - Discover scan found 0 candidate themes
+2025-10-19 16:57:13,424 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 16:57:16,457 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 16:57:16,486 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 16:57:18,523 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 16:57:55,121 - INFO - Starting get_hot_themes
+2025-10-19 16:57:55,122 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 16:57:55,129 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 16:57:57,117 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 16:57:58,586 - ERROR - 
+3 Failed downloads:
+2025-10-19 16:57:58,586 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 16:57:58,660 - INFO - Discover scan found 0 candidate themes
+2025-10-19 16:57:58,662 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 16:58:01,583 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 16:58:01,610 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 16:58:03,612 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:01:28,552 - INFO - Starting get_hot_themes
+2025-10-19 17:01:28,552 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:01:28,559 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:01:32,820 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:01:32,821 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:01:32,899 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:01:32,901 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:01:35,718 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:01:35,746 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:01:37,789 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:02:59,424 - INFO - Starting get_hot_themes
+2025-10-19 17:02:59,424 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:02:59,432 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:03:03,755 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:03:03,755 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:03:03,832 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:03:03,833 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:03:06,946 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:03:06,975 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:03:08,961 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:04:18,745 - INFO - Starting get_hot_themes
+2025-10-19 17:04:18,746 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:04:18,753 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:04:23,345 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:04:23,345 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:04:23,410 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:04:23,411 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:04:26,400 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:04:26,427 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:04:28,411 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:07:21,229 - INFO - Starting get_hot_themes
+2025-10-19 17:07:21,229 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:07:21,237 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:07:25,272 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:07:25,272 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:07:25,343 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:07:25,345 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:07:35,735 - ERROR - 
+1 Failed download:
+2025-10-19 17:07:35,735 - ERROR - ['CSIQ']: Timeout('Failed to perform, curl: (28) Operation timed out after 10002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2025-10-19 17:07:35,860 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:07:35,887 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Solar                -0.232822   [FSLR, ENPH, RUN]         6
+Data Centers         -0.319254  [DELL, AVGO, IREN]         7
+Software             -0.323001  [WDAY, ADSK, ADBE]         8
+Airlines             -0.532559     [UAL, LUV, AAL]         9
+Consumer             -0.550272   [NKE, OPEN, VSCO]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:07:37,878 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:15:50,527 - INFO - Starting get_hot_themes
+2025-10-19 17:15:50,528 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:15:50,535 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:15:54,547 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:15:54,547 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:15:54,622 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:15:54,624 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:15:57,861 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:15:57,888 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:15:59,915 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 17:27:42,329 - INFO - Starting get_hot_themes
+2025-10-19 17:27:42,329 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 17:27:42,338 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 17:27:44,727 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 17:27:46,361 - ERROR - 
+3 Failed downloads:
+2025-10-19 17:27:46,361 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 17:27:46,434 - INFO - Discover scan found 0 candidate themes
+2025-10-19 17:27:46,435 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 17:27:49,879 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 17:27:49,909 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 17:27:51,906 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 18:48:54,522 - INFO - Starting get_hot_themes
+2025-10-19 18:48:54,522 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 18:48:54,531 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 18:48:55,225 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 18:48:56,335 - ERROR - 
+3 Failed downloads:
+2025-10-19 18:48:56,335 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 18:48:56,405 - INFO - Discover scan found 0 candidate themes
+2025-10-19 18:48:56,406 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 18:48:58,019 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 18:48:58,047 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 18:49:00,130 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 18:51:28,268 - INFO - Starting get_hot_themes
+2025-10-19 18:51:28,268 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 18:51:28,277 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 18:51:29,781 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 18:51:31,415 - ERROR - 
+3 Failed downloads:
+2025-10-19 18:51:31,415 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 18:51:31,487 - INFO - Discover scan found 0 candidate themes
+2025-10-19 18:51:31,488 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 18:51:33,125 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 18:51:33,152 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 18:51:35,180 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 18:56:48,501 - INFO - Starting get_hot_themes
+2025-10-19 18:56:48,502 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 18:56:48,509 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 18:56:48,947 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 18:56:50,126 - ERROR - 
+3 Failed downloads:
+2025-10-19 18:56:50,127 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 18:56:50,194 - INFO - Discover scan found 0 candidate themes
+2025-10-19 18:56:50,196 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 18:56:51,714 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 18:56:51,742 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 18:56:53,732 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 18:57:57,342 - INFO - Starting get_hot_themes
+2025-10-19 18:57:57,342 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 18:57:57,350 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 18:57:57,776 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 18:57:59,016 - ERROR - 
+3 Failed downloads:
+2025-10-19 18:57:59,016 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 18:57:59,085 - INFO - Discover scan found 0 candidate themes
+2025-10-19 18:57:59,087 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 18:58:00,598 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 18:58:00,626 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 18:58:02,634 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:00:33,335 - INFO - Starting get_hot_themes
+2025-10-19 19:00:33,335 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:00:33,343 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:00:34,309 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:00:35,244 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:00:35,244 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:00:35,319 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:00:35,320 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:00:37,256 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:00:37,283 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:00:39,296 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:02:46,601 - INFO - Starting get_hot_themes
+2025-10-19 19:02:46,602 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:02:46,609 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:02:48,444 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:02:48,444 - ERROR - ['NETS', 'NKLA', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:02:48,520 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:02:48,522 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:02:50,074 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:02:50,101 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:02:52,107 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:04:23,693 - INFO - Starting get_hot_themes
+2025-10-19 19:04:23,694 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:04:23,702 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:04:24,788 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:04:27,865 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:04:27,866 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:04:27,939 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:04:27,940 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:04:29,631 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:04:29,658 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:04:31,650 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:08:17,305 - INFO - Starting get_hot_themes
+2025-10-19 19:08:17,305 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:08:17,312 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:08:18,328 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:08:19,039 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:08:19,040 - ERROR - ['NETS', 'NKLA', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:08:19,116 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:08:19,117 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:08:20,601 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:08:20,628 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:08:22,619 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:10:01,086 - INFO - Starting get_hot_themes
+2025-10-19 19:10:01,086 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:10:01,094 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:10:01,973 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:10:02,776 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:10:02,776 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:10:02,838 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:10:02,839 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:10:04,317 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:10:04,344 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:10:06,325 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:10:39,956 - INFO - Starting get_hot_themes
+2025-10-19 19:10:39,956 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:10:39,963 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:10:41,619 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:10:41,619 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:10:41,686 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:10:41,687 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:10:43,327 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:10:43,354 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:10:45,331 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:16:28,931 - INFO - Starting get_hot_themes
+2025-10-19 19:16:28,931 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:16:28,939 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:16:29,533 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:16:31,730 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:16:31,730 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:16:31,805 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:16:31,807 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:16:33,322 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:16:33,351 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:16:35,362 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:22:49,463 - INFO - Starting get_hot_themes
+2025-10-19 19:22:49,463 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:22:49,470 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:22:50,227 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:22:51,355 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:22:51,355 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:22:51,420 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:22:51,422 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:22:52,955 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:22:52,982 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:22:54,991 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:24:58,331 - INFO - Starting get_hot_themes
+2025-10-19 19:24:58,331 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:24:58,338 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:24:59,287 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:24:59,966 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:24:59,966 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:25:00,032 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:25:00,033 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:25:01,483 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:25:01,511 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:25:03,491 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:34:33,419 - INFO - Starting get_hot_themes
+2025-10-19 19:34:33,420 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:34:33,427 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:34:33,985 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:34:34,368 - ERROR - HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"User is unable to access this feature - https://bit.ly/yahoo-finance-api-feedback"}}}
+2025-10-19 19:34:35,184 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:34:35,184 - ERROR - ['NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:34:35,184 - ERROR - ['SQ']: TypeError("argument of type 'NoneType' is not iterable")
+2025-10-19 19:34:35,246 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:34:35,247 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:34:36,865 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:34:36,892 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:34:38,941 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:45:56,998 - INFO - Starting get_hot_themes
+2025-10-19 19:45:56,998 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:45:57,005 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:45:59,442 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:46:04,480 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:46:04,480 - ERROR - ['NETS', 'NKLA', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:46:04,552 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:46:04,553 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:46:06,156 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:46:06,184 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:46:08,202 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:46:24,272 - INFO - Starting get_hot_themes
+2025-10-19 19:46:24,272 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:46:24,279 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:46:25,972 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:46:25,973 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:46:26,049 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:46:26,050 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:46:27,458 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:46:27,485 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:46:29,462 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:47:00,500 - INFO - Starting get_hot_themes
+2025-10-19 19:47:00,500 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:47:00,507 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:47:02,205 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:47:02,205 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:47:02,268 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:47:02,269 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:47:03,702 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:47:03,729 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:47:05,736 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:48:31,466 - INFO - Starting get_hot_themes
+2025-10-19 19:48:31,466 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:48:31,474 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:48:33,348 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:48:33,348 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:48:33,424 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:48:33,425 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:48:34,854 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:48:34,882 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:48:36,852 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:49:16,748 - INFO - Starting get_hot_themes
+2025-10-19 19:49:16,749 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:49:16,756 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:49:18,060 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:49:18,774 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:49:18,774 - ERROR - ['NKLA', 'SQ', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:49:18,846 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:49:18,848 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:49:20,433 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:49:20,460 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:49:21,717 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:49:41,923 - INFO - Starting get_hot_themes
+2025-10-19 19:49:41,924 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:49:41,931 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:49:43,276 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:49:44,250 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:49:44,250 - ERROR - ['SQ', 'NKLA', 'NETS']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:49:44,321 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:49:44,323 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:49:46,181 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:49:46,208 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:49:48,195 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:51:09,406 - INFO - Starting get_hot_themes
+2025-10-19 19:51:09,406 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:51:09,413 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:51:13,319 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:51:17,214 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:51:17,214 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:51:17,297 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:51:17,298 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:51:19,565 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:51:19,595 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:51:20,899 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:51:45,674 - INFO - Starting get_hot_themes
+2025-10-19 19:51:45,674 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:51:45,681 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:51:46,134 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:51:48,026 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:51:48,026 - ERROR - ['NKLA', 'NETS', 'SQ']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:51:48,099 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:51:48,100 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:51:49,880 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:51:49,908 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:51:51,918 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:53:08,870 - INFO - Starting get_hot_themes
+2025-10-19 19:53:08,870 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:53:08,877 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:53:13,262 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:53:17,159 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:53:17,160 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:53:17,232 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:53:17,233 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:53:20,412 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:53:20,439 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:53:22,419 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 19:53:48,649 - INFO - Starting get_hot_themes
+2025-10-19 19:53:48,650 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 19:53:48,657 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 19:53:50,344 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 19:53:52,545 - ERROR - 
+3 Failed downloads:
+2025-10-19 19:53:52,545 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 19:53:52,619 - INFO - Discover scan found 0 candidate themes
+2025-10-19 19:53:52,621 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 19:54:03,570 - ERROR - 
+1 Failed download:
+2025-10-19 19:54:03,570 - ERROR - ['AAL']: Timeout('Failed to perform, curl: (28) Operation timed out after 10003 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2025-10-19 19:54:03,693 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 19:54:03,720 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.449929     [UAL, LUV, DAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 19:54:05,702 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 20:01:51,205 - INFO - Starting get_hot_themes
+2025-10-19 20:01:51,205 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 20:01:51,212 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 20:01:53,348 - ERROR - 
+3 Failed downloads:
+2025-10-19 20:01:53,348 - ERROR - ['NETS', 'SQ', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 20:01:53,410 - INFO - Discover scan found 0 candidate themes
+2025-10-19 20:01:53,411 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 20:01:55,585 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 20:01:55,614 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 20:01:57,509 - ERROR - Failed to render QWebEngineView: name 'height' is not defined
+2025-10-19 20:02:32,329 - INFO - Starting get_hot_themes
+2025-10-19 20:02:32,329 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 20:02:32,336 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 20:02:34,154 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 20:02:34,442 - ERROR - 
+3 Failed downloads:
+2025-10-19 20:02:34,442 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 20:02:34,504 - INFO - Discover scan found 0 candidate themes
+2025-10-19 20:02:34,505 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 20:02:36,100 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 20:02:36,128 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 20:02:36,648 - INFO - Rendered Themes chart with drill-down in QWebEngineView
+2025-10-19 20:07:05,714 - INFO - Starting get_hot_themes
+2025-10-19 20:07:05,715 - INFO - Found themes.json at /Users/mistaplane/Documents/scripts/theme_tracker/themes.json
+2025-10-19 20:07:05,722 - INFO - Discover scan: fetching 151 tickers for 20d
+2025-10-19 20:07:07,096 - ERROR - HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NKLA"}}}
+2025-10-19 20:07:07,357 - ERROR - 
+3 Failed downloads:
+2025-10-19 20:07:07,357 - ERROR - ['SQ', 'NETS', 'NKLA']: YFPricesMissingError('possibly delisted; no price data found  (period=20d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-10-19 20:07:07,418 - INFO - Discover scan found 0 candidate themes
+2025-10-19 20:07:07,419 - INFO - Downloading quotes for 151 tickers in one batch
+2025-10-19 20:07:08,983 - WARNING - Failed to write cache: columns overlap but no suffix specified: Index(['AAL', 'ACHR', 'ADBE', 'ADSK', 'AEC', 'AEVA', 'ALB', 'AMD', 'APLD',
+       'APP',
+       ...
+       'UUU', 'UUUU', 'VLRS', 'VRT', 'VSCO', 'VST', 'WDAY', 'XPEV', 'ZM',
+       'ZS'],
+      dtype='object', length=148)
+2025-10-19 20:07:09,012 - INFO - Computed theme stats:
+                    avg_return          top_stocks  hot_rank
+theme                                                       
+Semis                 1.427529    [NVDA, INTC, MU]         1
+China                 0.425116    [FUTU, BABA, JD]         2
+MAG 7                 0.350209  [TSLA, AAPL, NFLX]         3
+Genomics              0.233971  [CRSP, BEAM, NTLA]         4
+Cyber Sec            -0.131551  [PANW, CRWD, FTNT]         5
+Data Centers         -0.319254  [DELL, AVGO, IREN]         6
+Software             -0.323001  [WDAY, ADSK, ADBE]         7
+Airlines             -0.532559     [UAL, LUV, AAL]         8
+Consumer             -0.550272   [NKE, OPEN, VSCO]         9
+Solar                -0.667412   [FSLR, ENPH, RUN]        10
+AI                   -0.788857  [NVDA, GOOG, META]        11
+EV - Cars            -0.846696    [TSLA, RIVN, LI]        12
+Nuclear              -1.222076    [OKLO, BWX, NEE]        13
+Private Credit       -1.593290     [OWL, ARES, CG]        14
+BTC Miners/ Crypto   -2.269189  [RIOT, MSTR, CIFR]        15
+Rockets/Space        -2.739706     [LUNR, BA, LMT]        16
+Lidar                -2.751799  [LAZR, MBLY, AEVA]        17
+DAT                  -3.284088  [MSTR, BTBT, SBET]        18
+Lithium              -4.225615      [QS, LIT, RIO]        19
+Uranium              -4.399055     [CCJ, DNN, NXE]        20
+Graphite             -4.558867          [NMG, NVW]        21
+EV Air Taxi          -6.239298  [JOBY, ACHR, HOVR]        22
+Quantum              -6.294964  [ARQQ, QUBT, RGTI]        23
+Drones               -6.361450        [AVAV, RCAT]        24
+Rare Earth           -9.700935    [CRML, NB, USAR]        25
+2025-10-19 20:07:09,538 - INFO - Rendered Themes chart with drill-down in QWebEngineView
